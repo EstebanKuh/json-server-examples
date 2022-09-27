@@ -2,10 +2,12 @@
   "name": "json-serve-examples",
   "version": "1.0.0",
   "private": true,
+  "main": "server.js",
   "dependencies": {
     "json-server": "^0.17.0"
   },
   "scripts": {
+    "start": "node server.js",
     "api-hp": "json-server --watch harry-potter/data.js --port 4000"
   },
   "browserslist": {
